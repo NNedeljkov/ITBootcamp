@@ -1,0 +1,161 @@
+/* generalne postavke */
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 26px;
+}
+
+.container {
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+a:link {
+	color: inherit;
+}
+
+.clear {
+	clear: both;
+}
+
+/* header */
+nav {
+	width: 100%;
+}
+
+
+header .container {
+	padding-top: 34px;
+	padding-bottom: 24px;
+}
+
+.logotop {
+	padding: 5px 5px 5px 15px;
+	float: left;
+	height: 50px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+nav ul {
+	float: right;
+	font-weight: 500;
+	padding: 12px 0;
+	margin: 0;
+	width: 35%;
+}
+
+nav li {
+	float: left;
+	padding: 6px 10px 5px;
+	font-size: 14px;
+	margin-right: 5px;
+}
+
+.kontakt {
+	padding: 10px 25px 10px;
+	background-color: blueviolet;
+	border:1px solid transparent;
+}
+
+/*osnovne*/
+#osnovne p {
+	text-align: center;
+	font-size: 25px;
+	margin: 0 5%;
+}
+
+/*main*/
+.divovi {
+	width: 100%;
+	height:auto;
+}
+
+.divovi .container {
+	padding-right: 0;
+	margin-left: 2%;
+}
+
+.divovi h1 {
+	font-size: 40px;
+	text-align: center;
+	font-weight: 300;
+	margin: 90px 0;
+}
+
+.divovi h2 {
+	font-size: 21px;
+	text-align: center;
+	color: darkblue;
+	font-weight: 300;
+	width: 75%;
+	margin: 35px 15% 55px 15%;
+}
+
+.divovi h1 h2 {
+	text-align: center;
+}
+
+.slike {
+	float: left;
+	width:30%;
+	height: auto;
+	text-align: center;
+	padding-left: 2%;
+	border: 2px solid black;
+}
+
+.divovi h3 {
+	font-weight: 400;
+	font-size: 24px;
+	color: red;
+}
+
+.ispodslike {
+	font-size: 16px;
+	font-weight: 300;
+	color: green;
+}
+
+/*footer*/
+footer p {
+	font-size: 14px;
+}
+
+footer .container {
+	padding: 50px 15px;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+.footlogo {
+	padding-right: 15px;
+	float: left;
+}
+
+.footerul ul{
+	float: right;
+	background-color: yellow;
+	padding-right: 5%;
+}
+
+.footerul ul li {
+	float: left;
+	margin-left: 30px;
+}
+
+.footerul ul p {
+	display: inline-block;
+	margin: 0;
+}
