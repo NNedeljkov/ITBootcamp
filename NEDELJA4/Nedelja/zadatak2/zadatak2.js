@@ -60,8 +60,4 @@ button2.addEventListener('click', () => {
     pobednikDiv.appendChild(pobednikSlika)
     omotac.appendChild(pobednikDiv)
 })
-// console.log(pobednik(pokemoni))
-{/* <div>
-        <p>Opis pokemona</p>
-        <img src="slika odgovarajućeg pokemona">
-</div> */}
+// moram da napomenem da nisam bas dobro razumeo sta tacno treba da radim sa funkcijom u ovom zadatku
